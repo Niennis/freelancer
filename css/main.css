@@ -204,13 +204,17 @@ a:hover{
 	-moz-column-count: 2;
  	-webkit-column-count: 2;
   	column-count: 2;	
-	padding:0 25%;
+	padding:0 22%;
 	text-align: left;
 	line-height: 150%;
 	position:relative;
 	top:-5%;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
 }
 
+	
 /* Inicio botón de descarga*/
 
 .download{
@@ -226,6 +230,7 @@ a:hover{
 .download p{
 	font-size: 18px;
 	margin-top:10px;
+	font-family: 'Lato', sans-serif;
 }
 
 /* Fin botón de descarga*/

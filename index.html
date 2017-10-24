@@ -1,1 +1,173 @@
 <!-- Agrega aquí la estructura HTML de tu sitio web -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Start Bootstrap</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<!-- ENCABEZADO -->
+
+	<div class='header'>
+		<h2>START BOOTSTRAP</h2>
+		<ul>			
+			<li><a href="#portfolio">PORTFOLIO</a></li>
+			<li><a href="#about">ABOUT</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+		</ul>
+		
+	</div>
+
+<!-- INICIO -->
+
+	<div class='home'>
+
+		<img src="assets/images/profile.png" alt="">
+		<h1>START BOOTSTRAP</h1>
+		<hr class='left'><p><i class="fa fa-star fa-2x" aria-hidden="true"></i></p><hr class='right'>
+		<h2>Web Developer - Graphic Artist - User Experience Designer</h2>
+
+	</div>
+
+<!-- PORTAFOLIO -->
+
+	<section id='portfolio'>
+		<h2>PORTFOLIO</h2>
+		<hr class='left'><p><i class="fa fa-star fa-2x" aria-hidden="true"></i></p><hr class='right'>
+		
+		<table>
+			<tr>
+				<td><img src="assets/images/portfolio/cabin.png" alt=""></td>
+				<td><img src="assets/images/portfolio/cake.png" alt=""></td>
+				<td><img src="assets/images/portfolio/circus.png" alt=""></td>
+			</tr>
+
+			<tr>
+				<td><img src="assets/images/portfolio/game.png" alt=""></td>
+				<td><img src="assets/images/portfolio/safe.png" alt=""></td>
+				<td><img src="assets/images/portfolio/submarine.png" alt=""></td>
+			</tr>
+
+		</table>
+		
+	</section>
+
+<!-- ABOUT -->
+
+	<section id='about'>
+		<h2>ABOUT</h2>
+		<hr class='left'><p><i class="fa fa-star fa-2x" aria-hidden="true"></i></p><hr class='right'>
+		<p id='column'>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete  source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization. Wether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+		<div class='download'><p><i class="fa fa-download" aria-hidden="true"></i> Download theme</p></div>
+	</section>
+
+<!-- CONTACTO -->
+
+	<section id='contact'>
+		<h2>CONTACT ME</h2>
+		<hr class='left'><p><i class="fa fa-star fa-2x" aria-hidden="true"></i></p><hr class='right'>
+
+
+		<div class='send_message'>
+			<input class='entrada' placeholder="Name" type="">
+			<hr>
+			<input class='entrada' placeholder="Email Adress" type="email">
+			<hr>
+			<input class='entrada' placeholder="Phone Number" type="">
+			<hr>
+			<textarea type='form-control' name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+			<hr>
+			<input id='send_button' type="button" value="Send">
+		</div>
+
+	</section>
+
+<!-- FOOTER -->
+	<div class='footer'>
+		<table>
+			<tr>
+				<td><h3>LOCATION</h3></td>
+				<td><h3>AROUND THE WEB</h3></td>
+				<td><h3>ABOUT FREELANCER</h3></td>
+			</tr>
+			<tr>
+				<td><p>3481 Melrose Place </p>
+				<p>Beverly Hills, CA 90210</p></td>
+
+				<td>
+				<span class="fa-stack fa-lg">
+					<i id='circle' class="fa fa-circle-thin fa-2x fa-stack-2x" aria-hidden="true"></i>
+					<i id='sign' class="fa fa-facebook fa-stack-1x" aria-hidden="true"></i>
+				</span>
+					
+				<span class="fa-stack fa-lg">
+					<i id='circle' class="fa fa-circle-thin fa-2x fa-stack-2x" aria-hidden="true"></i>
+					<i id='sign' class="fa fa-google-plus fa-stack-1x" aria-hidden="true"></i>
+				</span>
+					
+				<span class="fa-stack fa-lg">
+					<i id='circle' class="fa fa-circle-thin fa-2x fa-stack-2x" aria-hidden="true"></i>
+					<i id='sign' class="fa fa-twitter fa-stack-1x" aria-hidden="true"></i>
+				</span>
+					
+				<span class="fa-stack fa-lg">
+					<i id='circle' class="fa fa-circle-thin fa-2x fa-stack-2x" aria-hidden="true"></i>
+					<i id='sign' class="fa fa-linkedin fa-stack-1x" aria-hidden="true"></i>
+				</span>
+					
+				<span class="fa-stack fa-lg">
+					<i id='circle' class="fa fa-circle-thin fa-2x fa-stack-2x" aria-hidden="true"></i>
+					<i id='sign' class="fa fa-dribbble fa-stack-1x" aria-hidden="true"></i>
+				</span>
+					
+				</td>
+
+				<td><p>Freelance is a free to use, open source </p>
+				<p>Bootstrap theme created by <a href="">Start Bootstrap</a>.</p></td>
+			</tr>
+		</table>
+		<p id='copy'>Copyright © Your Website 2017</p>
+		
+	</div>
+
+</body>
+</html>
+
+
+
+<!-- COSAS QUE SE NECESITAN
+
+
+FONTS
+<link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+ 
+ botón "send" ->   <input type="button" value="Send">
+
+
+
+ICONS
+star		<i class="fa fa-star" aria-hidden="true"></i>
+download	<i class="fa fa-download" aria-hidden="true"></i>
+facebook	<i class="fa fa-facebook" aria-hidden="true"></i>
+google		<i class="fa fa-google-plus" aria-hidden="true"></i>
+twitter		<i class="fa fa-twitter" aria-hidden="true"></i>
+linkedin	<i class="fa fa-linkedin" aria-hidden="true"></i>
+dribbble	<i class="fa fa-dribbble" aria-hidden="true"></i>
+circle		<i class="fa fa-circle-thin" aria-hidden="true"></i>
+
+icono doble		<span class="fa-stack fa-lg">
+			<i id='circle' class="fa fa-circle-thin fa-2x fa-stack-2x" aria-hidden="true"></i>
+			<i id='sign' class="fa fa-nombre fa-stack-1x" aria-hidden="true"></i>
+		</span>
+
+
+	-->
